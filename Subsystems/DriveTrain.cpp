@@ -28,8 +28,9 @@ void DriveTrain::InitDefaultCommand() {
 // Put methods for controlling this subsystem
 // here. Call these from Commands.
 void DriveTrain::takeJoystickInputs(Joystick* left, Joystick* right){
-	this->robotDrive->TankDrive(left, right);
+	// this->robotDrive->TankDrive(left, right);
+	robotDrive->TankDrive(left, right);
 }
 void DriveTrain::stop(){
-	this->robotDrive->Drive(0.0, 0.0);
+	robotDrive->Drive(0.0, 0.0);
 }

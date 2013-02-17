@@ -22,7 +22,7 @@ Children:
             default: '1'
             name: Output Module (Digital)
             validators: &id002 [PWMOutput]
-            value: '1'
+            value: '2'
           Type: !!robotbuilder.data.properties.ChoicesProperty
             choices: &id003 [Victor, Jaguar, Talon]
             default: Victor
@@ -44,7 +44,7 @@ Children:
             default: '1'
             name: Output Module (Digital)
             validators: *id002
-            value: '1'
+            value: '2'
           Type: !!robotbuilder.data.properties.ChoicesProperty
             choices: *id003
             default: Victor
@@ -97,7 +97,7 @@ Children:
           default: '1'
           name: Output Module (Digital)
           validators: *id002
-          value: '1'
+          value: '2'
         Type: !!robotbuilder.data.properties.ChoicesProperty
           choices: *id003
           default: Victor
@@ -125,7 +125,7 @@ Children:
           default: '1'
           name: Output Module (Digital)
           validators: *id002
-          value: '1'
+          value: '2'
         Type: !!robotbuilder.data.properties.ChoicesProperty
           choices: *id003
           default: Victor

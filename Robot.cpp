@@ -58,3 +58,10 @@ void Robot::TestPeriodic() {
 	lw->Run();
 }
 START_ROBOT_CLASS(Robot);
+
+
+/*
+ * 44002 occurred at ping results
+ * 44003 occurred at driver station
+ * 44007 occurred at FRC_NetworkCommunications
+ */
