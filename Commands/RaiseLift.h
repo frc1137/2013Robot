@@ -9,8 +9,8 @@
 // it from being updated in th future.
 
 
-#ifndef FRONTARMDOWN_H
-#define FRONTARMDOWN_H
+#ifndef RAISELIFT_H
+#define RAISELIFT_H
 
 
 #include "Commands/Subsystem.h"
@@ -21,9 +21,9 @@
  *
  * @author ExampleAuthor
  */
-class FrontArmDown: public Command {
+class RaiseLift: public Command {
 public:
-	FrontArmDown();
+	RaiseLift();
 	virtual void Initialize();
 	virtual void Execute();
 	virtual bool IsFinished();

@@ -9,8 +9,8 @@
 // it from being updated in th future.
 
 
-#ifndef REARARMUP_H
-#define REARARMUP_H
+#ifndef RUNDUMP_H
+#define RUNDUMP_H
 
 
 #include "Commands/Subsystem.h"
@@ -21,9 +21,9 @@
  *
  * @author ExampleAuthor
  */
-class RearArmUp: public Command {
+class runDump: public Command {
 public:
-	RearArmUp();
+	runDump();
 	virtual void Initialize();
 	virtual void Execute();
 	virtual bool IsFinished();
